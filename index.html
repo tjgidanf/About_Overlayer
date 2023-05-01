@@ -2,26 +2,61 @@
     <header>
       <body>
         <head>
-        <meta charset=utf-8>
-        <title>Overlayer Info</title>
+         <meta charset=utf-8>
+         <title>Overlayer Info</title>
 
-        <!--이미지 및 아이콘-->
+         <!--이미지 및 아이콘-->
 
-        <link href="Storage/iconimg.ico" rel="shortcut icon" type="image/x-icon">
-        <img id="logoimg" src="Storage/ov2Logo.png" alt="Logo img" width="20%">
+         <link href="Storage/iconimg.ico" rel="shortcut icon" type="image/x-icon">
+         <img id="logoimg" src="Storage/ov2Logo.png" alt="Logo img" width="15%">
    
-        <!--배경 비디오-->
+         <!--배경 비디오-->
 
-        <video autoplay loop muted id="bgvid">
-        <source src="Storage/BGV.mp4" type="video/mp4">
-        </video>
+         <video autoplay loop muted id="bgvid">
+         <source src="Storage/BGV.mp4" type="video/mp4">
+         </video>
 
-        <div id="videocover"></div>
+         <div id="videocover"></div>
 
-        <!--스타일시트(CSS File)-->
-        <link rel='stylesheet' href='src/style/sub.css'>
-        <link rel='stylesheet' href='src/style/main.css'>
+         <!--스타일시트(CSS File)-->
+         <link rel='stylesheet' href='src/style/sub.css'>
+         <link rel='stylesheet' href='src/style/main.css'>
+         <link rel='stylesheet' href='src/style/menu.css'>
+         <link rel='stylesheet' href='src/style/scroll.css'>
+         <link rel='stylesheet' href='src/style/motion.css'>
 
+
+         <!--메뉴바 (Menu)-->
+         <div class="wrapper">
+          <header>
+            <nav>
+              <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+              </div>
+              <div class="logo">
+                <img id="mainlogo" src="Storage/Logo.png" alt="mainLogo img"  width="8%">
+              </div>
+              <div class="menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="htu.html">How to use</a></li>
+                  <li><a href="#">Tag List</a></li>
+                  <li><a href="#">CustomTag</a></li>
+                </ul>
+              </div>
+            </nav>
+            
+          <!--애니메이션 효과-->
+          <div class="sp-container">
+            <div class="sp-content">
+              <div class="sp-globe"></div>
+              <h2 class="frame-1">
+                <span>SEARCH.</span>
+                <span>CREATE.</span>
+                <span>ENJOY.</span>
+                <span>Overlayer</span>
+              </h2>
+            </div>
         </head>
       </body>
     </header>

@@ -1,0 +1,27 @@
+.navbar-nav-brand {
+  /* het logo op kleine schermen verbergen */
+  display:none !important;
+  background-color: red;
+  color: white;
+}
+
+
+@media (min-width: 768px) {
+/* header logo verbergen op grotere schermen*/
+.navbar {
+  text-align:center;
+}
+.navbar-header {
+  display:none; 
+}
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display:inline-block;
+}
+.navbar-nav-brand {
+  display:block !important;
+}
+
+
+}
